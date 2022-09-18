@@ -15,4 +15,4 @@ This is a clone of the Google homepage.
 https://coooogle.netlify.app/
 
 ## Screenshots
-![screenshot](./images/screenshot.png)
+![screenshot](https://github.com/sahsisunny/Google_Clone-Coogle/blob/main/Demo/Screenshot.png)
