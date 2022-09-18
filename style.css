@@ -8,7 +8,6 @@
 :root {
      --end-bg: #beb6b648;
      --font: 'Poppins', sans-serif;
-
 }
 
 /* ------------------Body------------------------ */
@@ -18,8 +17,6 @@ body {
 
 /* ----------------Image Size--------------------- */
 /* navbar Image : grid */
-
-
 /* Searchbar Icon */
 #magnifier {
      width: 20px;
@@ -35,7 +32,7 @@ body {
 }
 
 #grid-li {
-     padding:8px;
+     padding: 8px;
 }
 
 #grid-li:hover {
@@ -59,24 +56,23 @@ body {
      margin: 20px;
 }
 
-#navtext{
+#navtext {
      padding-left: 15px;
      list-style: none;
 }
 
 #navtext:hover {
      text-decoration: underline;
-
 }
 
-.forgrid{
+.forgrid {
      margin-right: 10px;
 }
+
 #navtext {
      text-decoration: none;
      color: black;
 }
-
 
 #btn-signin {
      text-decoration: none;
@@ -85,16 +81,15 @@ body {
      background-color: #2875f0;
      color: white;
      padding: 8px 25px;
-     margin-left: 10px;}
+     margin-left: 10px;
+}
 
 #btn-signin:hover,
 #btn-signin:active {
-
      background-color: #0e63ed;
 }
 
 /* ------------------Gooogle Logo----------------------- */
-
 .logo {
      display: flex;
      justify-content: center;
@@ -201,13 +196,12 @@ body {
 /* ------------------End 2----------------------- */
 .end2 {
      background-color: var(--end-bg);
-     height: 50px;
+     height: 44px;
      display: flex;
      justify-content: flex-start;
      padding-left: 30px;
      align-items: center;
-     font-size: .9rem;
-
+     font-size: .85rem;
 }
 
 .end2 a {
@@ -219,15 +213,12 @@ body {
 /* ------------------End 1----------------------- */
 .end1 {
      background-color: var(--end-bg);
-     height: 50px;
+     height: 44px;
      display: flex;
      padding-left: 10px;
-
      justify-content: flex-start;
      align-items: center;
-     font-size: .9rem;
-
-
+     font-size: .85rem;
 }
 
 footer {
@@ -253,13 +244,13 @@ footer {
 .left ul li a {
      text-decoration: none;
      color: black;
-
 }
 
 .right {
      float: right;
-     /* display: flex; */
-     /* justify-content: flex-end; */
+     position: absolute;
+     top: 53px;
+     right: 20px;
 }
 
 .right ul {
@@ -277,15 +268,16 @@ footer {
 .right ul li a {
      text-decoration: none;
      color: black;
-
 }
 
 .end1 .left ul a:hover {
      text-decoration: underline;
-
 }
 
 .end1 .right ul a:hover {
      text-decoration: underline;
+}
 
+hr {
+     opacity: .6;
 }
