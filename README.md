@@ -1,4 +1,4 @@
-# Google_Clone-Coogle
+#Coogle - Google Homepage Clone
  
 ## Project Name
 Google Clone
