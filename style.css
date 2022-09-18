@@ -35,13 +35,12 @@ body {
 }
 
 #grid-li {
-     padding-left: 30px;
-     padding-right: 20px;
+     padding:8px;
 }
 
 #grid-li:hover {
-     background-color: #b9b9b95f;
-     border-radius: 50% 100% 100% 50%;
+     background-color: #b9b9b92b;
+     border-radius: 60px;
      opacity: .9;
 }
 
@@ -60,11 +59,19 @@ body {
      margin: 20px;
 }
 
-.navbar ul li {
-     list-style: none;
+#navtext{
      padding-left: 15px;
+     list-style: none;
 }
 
+#navtext:hover {
+     text-decoration: underline;
+
+}
+
+.forgrid{
+     margin-right: 10px;
+}
 #navtext {
      text-decoration: none;
      color: black;
@@ -78,7 +85,7 @@ body {
      background-color: #2875f0;
      color: white;
      padding: 8px 25px;
-}
+     margin-left: 10px;}
 
 #btn-signin:hover,
 #btn-signin:active {
@@ -145,11 +152,10 @@ body {
 #btnss {
      width: 10%;
      height: 35px;
-     border: .1px solid #b9b9b9bf;
-     opacity: .7;
+     border: .01px solid #dddbdb34;
+     opacity: .9;
      border-radius: 5px;
      font-size: .8rem;
-     ;
      margin: 10px;
 }
 
@@ -183,8 +189,12 @@ body {
      text-decoration: none;
 }
 
+.lang ul li a:hover {
+     text-decoration: underline;
+}
+
 #goffer {
-     opacity: .7;
+     opacity: .8;
 }
 
 /* ------------------Footer----------------------- */
@@ -203,6 +213,7 @@ body {
 .end2 a {
      color: black;
      text-decoration: none;
+     cursor: auto;
 }
 
 /* ------------------End 1----------------------- */
@@ -247,13 +258,15 @@ footer {
 
 .right {
      float: right;
-     display: flex;
-     justify-content: flex-end;
+     /* display: flex; */
+     /* justify-content: flex-end; */
 }
 
 .right ul {
      list-style: none;
      display: flex;
+     float: right;
+     left: 900px;
 }
 
 .right ul li {
@@ -264,5 +277,15 @@ footer {
 .right ul li a {
      text-decoration: none;
      color: black;
+
+}
+
+.end1 .left ul a:hover {
+     text-decoration: underline;
+
+}
+
+.end1 .right ul a:hover {
+     text-decoration: underline;
 
 }
